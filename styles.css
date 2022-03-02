@@ -19,8 +19,13 @@ table, th, td
     margin: auto;
 }
 td {
-    font-family: "Verily Serif Mono";
+    font-family: "VerilySerifMono";
 }
 body p {
-    font-family: "Verily Serif Mono";
+    font-family: "VerilySerifMono";
+}
+
+@font-face {
+    font-family: VerilySerifMono;
+    src: url('webfonts/verily_serif_mono/VerilySerifMono.otf');
 }
