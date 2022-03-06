@@ -1,31 +1,49 @@
-html
-{
-    text-align: center;
-
+html {
+  text-align: center;
 }
 body {
-    text-align: center;
+  text-align: center;
+  background-color: #d2d2d2;
 }
 
-
-table, th, td 
-{
-    border:1px solid black;
+table,
+th,
+td {
+  border: 2px solid #000000;
 }
 
-#Sheet
-{
-    text-align:center;
-    margin: auto;
+#sheet {
+  margin: auto;
 }
 td {
-    font-family: "VerilySerifMono";
+  font-family: "VerilySerifMono";
 }
 body p {
-    font-family: "VerilySerifMono";
+  font-family: "VerilySerifMono";
 }
 
 @font-face {
-    font-family: VerilySerifMono;
-    src: url('webfonts/verily_serif_mono/VerilySerifMono.otf');
+  font-family: VerilySerifMono;
+  src: url("webfonts/verily_serif_mono/VerilySerifMono.otf");
+}
+
+a {
+  color: #800200;
+}
+
+a:hover {
+  color: #800200;
+}
+
+#intro {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+    font-family: upheavtt;
+    margin-top: 50px;
+    font-size: 5rem;
+    color: #000000;
 }
