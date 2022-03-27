@@ -6,10 +6,22 @@ body {
   background-color: #d2d2d2;
 }
 
+a {
+  text-decoration: none;
+}
+
 table,
 th,
-td {
+td,
+tr {
   border: 2px solid #000000;
+}
+
+th {
+  font-family: upheavtt;
+  font-size: x-large;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #sheet {
@@ -27,6 +39,11 @@ body p {
   src: url("webfonts/verily_serif_mono/VerilySerifMono.otf");
 }
 
+@font-face {
+  font-family: upheavtt;
+  src: url("webfonts/upheavtt/upheavtt.ttf");
+}
+
 a {
   color: #800200;
 }
@@ -42,8 +59,8 @@ a:hover {
 }
 
 #header {
-    font-family: upheavtt;
-    margin-top: 50px;
-    font-size: 5rem;
-    color: #000000;
+  font-family: upheavtt;
+  margin-top: 50px;
+  font-size: 5rem;
+  color: #000000;
 }
