@@ -40,8 +40,8 @@ body p {
 }
 
 @font-face {
-  font-family: upheavtt;
-  src: url("webfonts/upheavtt/upheavtt.ttf");
+  font-family: "upheavtt";
+  src: url("webfonts/upheavtt/upheavtt.ttf") format("truetype");
 }
 
 a {
